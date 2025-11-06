@@ -162,7 +162,7 @@ p{
     border-radius: 30px;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url("../img/banner-fon.png");
+    background-image: url("../img/banner-fon.webp");
     display: flex;
     justify-content: space-between;
     transform: translateX(-20px);
@@ -1344,7 +1344,7 @@ p{
 
 
 footer{
-    background-image: url("../img/footer-fon.png");
+    background-image: url("../img/footer-fon.webp");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
