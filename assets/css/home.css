@@ -865,6 +865,8 @@ p{
     position: absolute;
     top: 23px;
     left: 20px;
+    width: 30px;
+    height: 30px;
 }
 .result-photo{
     width: 100%;
@@ -1269,8 +1271,12 @@ p{
     font-size: 16px;
     line-height: 120%;
     color: #757371;
+    max-width: 220px;
+    width: 100%;
 }
-
+.following-info h4 i{
+    width: 18px;
+}
 .following-photo{
     max-width: 694px;
     width: 100%;
@@ -2330,6 +2336,19 @@ footer{
         font-size: 14px;
         text-align: center;
     }
+    .caught-cycle-box:nth-child(4) .caught-cycle-count {
+        margin-bottom: 0;
+        margin-right: 0;
+    }
+    .caught-cycle-box:nth-child(5) .caught-cycle-count {
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .caught-cycle-box:nth-child(5) {
+        bottom: 0;
+        left: 0;
+        align-items: flex-start;
+    }
 }
 
 
@@ -2484,12 +2503,6 @@ footer{
         top: 151px;
         height: 361px;
         left: 0;
-    }
-    .caught-cycle-box:nth-child(5) {
-        bottom: 0;
-        left: 50px;
-        align-items: flex-end;
-
     }
 
     .wait-things-fon {
