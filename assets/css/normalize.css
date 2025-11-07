@@ -308,6 +308,26 @@ body {
 .icon-dance{
     content: url("../img/icons/dance.png");
 }
+
 .icon-dosc{
     content: url("../img/icons/dosc.png");
+}
+
+.icon-layer{
+    content: url("../img/icons/layer.svg");
+}
+.emoji-sad{
+    content: url("../img/icons/emoji-sad.svg");
+}
+.icon-flag{
+    content: url("../img/icons/flag.svg");
+}
+.icon-unlimited{
+    content: url("../img/icons/unlimited.svg");
+}
+.icon-signpost{
+    content: url("../img/icons/signpost.svg");
+}
+.icon-chart{
+    content: url("../img/icons/chart.svg");
 }
