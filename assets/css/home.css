@@ -810,6 +810,9 @@ p{
     max-width: 370px;
     width: 100%;
 }
+.program-text h3 i{
+    width: 20px;
+}
 .program-text p{
     color: #FFFFFFE5;
     margin-top: 24px;
