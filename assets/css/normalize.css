@@ -157,3 +157,157 @@ body {
     margin: 0 auto;
     padding: 0 14px;
 }
+
+
+
+
+
+
+
+
+.G-flex {
+    display: flex;
+}
+
+.G-inline-flex {
+    display: inline-flex;
+}
+
+.G-center {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.G-justify-center {
+    justify-content: center;
+    display: flex;
+}
+
+.G-justify-between {
+    justify-content: space-between;
+    display: flex;
+}
+
+.G-justify-around {
+    justify-content: space-around;
+    display: flex;
+}
+
+.G-justify-end {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.G-align-center {
+    align-items: center;
+    display: flex;
+}
+
+.G-align-start {
+    align-items: flex-start;
+    display: flex;
+}
+
+.G-align-end {
+    align-items: flex-end;
+    display: flex;
+}
+
+.G-flex-column {
+    flex-direction: column;
+    display: flex;
+}
+
+.G-flex-wrap {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+    font-size: 18px;
+    background-color: #000;
+    transition: 0.3s;
+
+}
+
+
+.icon.icon-telegram {
+    mask-image: url(../img/icons/telegram.svg);
+    -webkit-mask-image: url(../img/icons/telegram.svg);
+    background-color: #FFFFFF;
+}
+
+.icon.icon-arrow-right {
+    mask-image: url(../img/icons/arrow-right.svg);
+    -webkit-mask-image: url(../img/icons/arrow-right.svg);
+    background-color: #624732;
+    font-size: 28px;
+
+}
+
+
+.icon-calendar{
+    content: url("../img/icons/calendar.svg");
+}
+
+.icon-wallet{
+    content: url("../img/icons/wallet.svg");
+}
+.icon-diamond{
+    content: url("../img/icons/diamond.png");
+}
+.icon-check{
+    content: url("../img/icons/check.png");
+}
+.icon-text{
+    content: url("../img/icons/text.png");
+}
+.icon-smil{
+    content: url("../img/icons/smil.png");
+}
+.icon-star{
+    content: url("../img/icons/star.png");
+}
+.icon-fier{
+    content: url("../img/icons/fier.png");
+}
+.icon-heart{
+    content: url("../img/icons/heart.png");
+}
+.icon-lamp{
+    content: url("../img/icons/lamp.png");
+}
+
+
+.icon-glob{
+    content: url("../img/icons/glob.png");
+}
+
+
+.icon-dance{
+    content: url("../img/icons/dance.png");
+}
+.icon-dosc{
+    content: url("../img/icons/dosc.png");
+}
