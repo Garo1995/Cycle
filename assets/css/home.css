@@ -292,7 +292,7 @@ p{
     transition: 0.3s;
     font-weight: 600;
     font-size: 18px;
-    line-height: 110%;
+    line-height: 95%;
     color: #FFFFFF;
     background: #624732;
     display: flex;
@@ -1703,7 +1703,9 @@ footer{
 }
 
 .check-form {
-    display: block;
+    min-height: 24px;
+    display: flex;
+    align-items: center;
     position: relative;
     padding-left: 39px;
     cursor: pointer;
@@ -2066,7 +2068,7 @@ footer{
         font-size: 14px;
         color: #757371;
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         gap: 11px;
     }
 
@@ -2213,6 +2215,22 @@ footer{
         flex-direction: row;
         flex-wrap: unset;
         width: max-content;
+    }
+    .following-info h4 {
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        max-width: 360px;
+        width: 100%;
+        justify-content: center;
+    }
+    .result-box:last-child{
+        margin-right: 16px;
+    }
+    .caught-cycle-box:last-child{
+        margin-right: 16px;
+
     }
     .reasons-box {
         height: 250px;
@@ -2742,6 +2760,12 @@ footer{
     .program-title h2 {
         text-align: center;
     }
+    .following-text {
+        padding: 12px 36px;
+    }
+    .following-box {
+        height: 288px;
+    }
 }
 
 @media (max-width: 570px){
@@ -2837,9 +2861,7 @@ footer{
     .check-form {
         padding-left: 35px;
     }
-    .checkmark {
-        top: 3px;
-    }
+
     .without-guilt-info h3 {
         font-size: 28px;
     }
